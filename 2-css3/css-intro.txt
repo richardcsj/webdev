@@ -1,0 +1,10 @@
+Cascading Style Sheet -> CSS
+
+Inside the style section of the code:
+
+you divide the sub sections with brackets.
+Example: body, div, h1, ul, any portion of the code
+Inside every portion you put all the information of how you want to style your page.
+
+Useful because it's separate from html, so you can edit style and content individually.
+makes code more readable, easier to code and maintain.

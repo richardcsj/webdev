@@ -1,0 +1,14 @@
+3 algorithms for sorting: 
+
+takes nsqr time: bubble sort, selection sort and insertion sort
+
+Selection sort:
+
+Iteration 1:
+1) search for the smallest item
+2) swap with the first item (so the first element is sorted)
+
+Iteration 2:
+1)repeat the same process starting from the 2nd position in the array
+
+Do this until the array is sorted

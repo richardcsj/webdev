@@ -1,0 +1,92 @@
+<html>
+
+	<head>
+		
+		<title>webpage with style</title>
+	
+		<style type="text/css">
+		
+			.red {
+			
+				color:red;
+			
+			}		
+			
+			
+			.large {
+			
+				font-size: 200%;
+			}
+			
+			#green {
+			
+				color:green;
+			}
+			
+			.underlined {
+			
+				text-decoration: underline;
+			}
+			
+			#first-section {
+			
+				color:#4285F4;
+				background-color: #01DFD7;
+				width:200px;
+				position:relative;
+				left: 100px;
+				top: 100px;
+				z-index: 1;
+			
+			}
+			
+			#second-section {
+			
+				color: pink;
+				background-color: #67C1F5;
+				width: 200px;
+				position: relative;
+				z-index: 2;
+				opacity: 0.3;
+			
+			}
+			
+			<!-- we can use positive and negative number to move the position-->
+	
+			<!-- z-index : when two items are overlapping, the one with highest index will appear in the front -->
+					
+		
+			
+		</style>
+
+	</head>
+
+	<body>
+		
+		
+		
+		<div id="first-section">
+		
+			<p>Welcome to the CSS course!</p>
+			
+			<p>Wow, Internal css is useful!</p>
+		
+		</div>
+			
+		<div id="second-section">
+		
+			<p id="green">This is some more text. <span class="underlined">And this is underlined text.</span></p>
+			
+			
+			<h1 class="red">CSS is cool!</h1>
+			
+			
+		</div>
+		
+		
+		<p>This paragraph is not floated!</p>
+		
+
+	</body>
+
+</html>\

@@ -1,0 +1,44 @@
+Congratulations on the setup of your new carbon positive hosting package. The processing of your application is complete, and your hosting is ready to use.
+
+Almost all of the administration of your account can be done through cp.ecowebhosting.co.uk, logging in as richardchuntesthosting.com, with password 1afb48a2b1fc
+
+You\\\'ll find some vital information below about your new web hosting account, so please keep this email safe:-
+
+*** Basic Information ***
+Domain Name: richardchuntesthosting.com, or until the domain is live 
+Package Name: EWH Advanced
+Account Setup Date: 28/03/2017
+
+*** FTP ***
+Please note that FTP must be unlocked before you can use it. You can unlock FTP at http://cp.richardchuntesthosting.com.
+
+Username: richardchuntesthosting.com
+Password: 1afb48a2b1fc 
+Server Name: ftp.richardchuntesthosting.com (or richardchuntesthosting.com when your domain is transferred)
+
+*** Control Panel ***
+Username: richardchuntesthosting.com
+Password: 1afb48a2b1fc
+Control Panel Address: cp.ecowebhosting.co.uk
+
+*** Email ***
+Incoming Mail Server: mail.richardchuntesthosting.com
+Outgoing Mail Server: mail.richardchuntesthosting.com
+
+*** Nameservers ***
+If you did not purchase your domain from us, you will need to change your nameservers to:
+
+ns1.eco-dns.co.uk
+ns2.eco-dns.co.uk
+
+To configure your email please log in at http://cp.richardchuntesthosting.com and click \'Email\'.
+
+If you would like to transfer a UK domain to us, our Nominet tag is STACK.
+
+If you have any questions or comments, please do not hesitate to contact us via ecowebhosting.co.uk/cp/support.
+
+Kind regards,
+
+The Eco Web Hosting Team
+
+www.ecowebhosting.co.uk 

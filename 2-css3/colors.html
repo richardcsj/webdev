@@ -1,0 +1,80 @@
+<html>
+
+	<head>
+		
+		<title>webpage with style</title>
+	
+		<style type="text/css">
+		
+			.red {
+			
+				color:red;
+			
+			}		
+			
+			
+			.large {
+			
+				font-size: 200%;
+			}
+			
+			#green {
+			
+				color:green;
+			}
+			
+			.underlined {
+			
+				text-decoration: underline;
+			}
+			
+			#first-section {
+			
+				color:#4285F4;
+				background-color: #01DFD7;
+				width:100px
+			}
+			
+			#second-section {
+			
+				color: pink;
+				background-color: #67C1F5;
+				width: 50%;
+			}
+					
+			<!-- div styling won't override the class or id if there is one inside a sub-tag. ex: paragraph-->
+			
+		</style>
+
+	</head>
+
+	<body>
+		
+		
+		<!-- div is really useful as it allows us to apply a style to a whole section
+		within the <div>  tag. -->
+		
+		<div id="first-section">
+		
+			<p>Welcome to the CSS course!</p>
+			
+			<p>Wow, Internal css is useful!</p>
+		
+		</div>
+			
+		<div id="second-section">
+		
+			<p id="green">This is some more text. <span class="underlined">And this is underlined text.</span></p>
+			
+			<!-- span is an html element used to select any chunck of text, image or whatever witchin the tag-->
+			
+			<h1 class="red">CSS is cool!</h1>
+			
+			<!-- tags can have multiple classes!!-->
+			
+		</div>
+		
+
+	</body>
+
+</html>

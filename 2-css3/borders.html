@@ -1,0 +1,66 @@
+<html>
+
+	<head>
+		
+		<title>webpage with style</title>
+		
+		<!-- border has: width, style and color-->
+		
+		<!-- border styles : https://www.w3schools.com/cssref/pr_border-style.asp -->
+	
+		<style type="text/css">
+		
+			#square-blue {
+				
+				background-color: blue;
+				border: 10px solid pink;
+		
+			}
+			
+			#square-red {
+				
+				background-color: red;
+				border-style: ridge solid dashed dotted;
+				border-color: pink yellow green silver;
+				border-width: 10 15 20 30
+			
+			}
+			
+			#square-green {
+				
+				background-color: green;
+				border-radius: 50%;
+				
+			}
+			
+		
+			.square {
+			
+				width: 200px;
+				height: 200px;
+				margin: 40px;
+				float: left;
+			}
+			
+			<!-- border radius is quite useful to customize the shape. Ex: if my square has width of 100px,
+			we could make it a circle by setting the border-radius to 50% or 50px. Radius = Width/2-->
+		
+		
+		</style>
+
+	</head>
+
+	<body>
+		
+		<div id="square-blue" class="square"></div>
+	
+		<div id="square-red" class="square"></div>
+	
+		<div id="square-green" class="square"></div>
+	
+		<!-- Adding the same class for different divs allow us to edit these divs only once,
+		instead of one by one-->
+
+	</body>
+
+</html>
