@@ -1,0 +1,51 @@
+<html>
+
+	<head>
+		
+		<title>Javascript</title>
+		
+		<style type="text/css">
+		
+		
+		
+		</style>
+			
+
+	</head>
+
+	<body>
+		
+		<input type="text" id = "inputText">
+		
+		<button id="changeName">Change name</button>
+		
+		<p id = "changeParagraph">This is some text</p>
+		
+		<script type="text/javascript">
+		
+		
+		
+		document.getElementById("changeName").onclick = function() {
+		
+			var textEntered = "";
+			
+			textEntered = document.getElementById("inputText").value;
+			
+			document.getElementById("changeParagraph").innerHTML = textEntered;
+			
+			
+			
+		}
+		
+			
+			
+			
+			
+		
+		
+		</script>
+		
+
+	</body>
+
+</html>
