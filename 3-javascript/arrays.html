@@ -20,10 +20,30 @@
 		<script type="text/javascript">
 		
 		
-		
-			
-		
-		
+				var myArray = new Array();
+				
+				myArray[0] = "pizza";
+				myArray[1] = "chocolate";
+				
+				<!-- show the elements in the array --> 
+				
+				console.log(myArray);
+				
+				var tweets = ["Morning everyone", "Covfvee"];
+				
+				tweets.push("hi hi");
+				
+				tweets.splice(1, 2);
+				
+				tweets.splice(0, 0, "Add item in the beginning");
+				
+				tweets.splice(1, 0, "Add in the middle");
+				
+				tweets.splice(2, 1, "End", "Extra");
+				
+				alert(tweets[2]);
+				
+				console.log(tweets);
 		</script>
 		
 
