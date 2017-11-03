@@ -1,0 +1,100 @@
+<html>
+
+	<head>
+		
+		<title>JQuery</title>
+		
+		
+	 <script type="text/javascript" src="jquery.min.js"></script>
+	 
+	 <style type="text/css">
+	 
+		#circle {
+		
+			width:150px;
+			height:150px;
+			border-radius:50%;
+			background-color:green;
+			margin:10px;
+		
+		}
+		
+		.square {
+		
+			width:150px;
+			height:150px;
+			background-color:red;
+			margin:10px;	
+		
+		}
+		
+		#hiddenText {
+		
+			display:none;
+		
+		}
+	 
+	 
+	 </style>
+			
+
+	</head>
+
+	<body>
+	
+		<p id="text">Hello!</p>
+		
+		<button id="toggle">Toggle text</button>
+		
+		
+		
+		
+		
+		
+		
+		<script type="text/javascript">
+		
+		
+			$("#button").click(function() {
+			
+				$("#text").fadeOut("slow", function() {
+				
+					alert("fade out has finished")	
+				
+				});
+			
+			});
+			
+			
+			$("#fadeIn").click(function() {
+			
+				$("#hiddenText").fadeIn(); 
+				
+			
+			});
+			
+			$("#toggle").click(function() {
+				
+				if($("#text").css("display") == "none") {
+				
+					$("#text").fadeIn();
+				
+				} else {
+				
+					$("#text").fadeOut();
+				
+				}
+			
+			
+			});
+			
+			
+			
+		
+		
+		</script>
+		
+
+	</body>
+
+</html>
